@@ -1,6 +1,10 @@
-/* body{
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
-} */
+}
 img{
     width: 100px; 
+}
+h1{
+    color: burlywood;
 }
