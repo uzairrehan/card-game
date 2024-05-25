@@ -1,10 +1,31 @@
-body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
 }
-img{
-    width: 100px; 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  gap: 30px;
 }
-h1{
-    color: burlywood;
+img {
+  width: 100px;
+}
+h1 {
+  color: #deb887;
+  margin: 0px;
+}
+button {
+  position: relative;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  background-color: #deb887;
+  transition: all 0.2s ease;
+  margin-left: 10px;
+  width: 100px;
 }
