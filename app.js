@@ -1,3 +1,4 @@
+// all ok
 h1El = document.querySelectorAll("h1");
 function reload() {
   location.reload();
